@@ -1,7 +1,7 @@
-from models.lead import Lead
-from api import Api 
+from amo.models.lead import Lead
+from amo.api import Api 
 from files import save_file_json
-from models.links import LinksList
+from amo.models.links import LinksList
 import json
 import datetime
 from pandas import DataFrame

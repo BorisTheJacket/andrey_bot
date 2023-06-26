@@ -1,4 +1,3 @@
-
 class Contact():
 
     def __init__(self, json_data) -> None:
